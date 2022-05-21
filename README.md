@@ -278,5 +278,6 @@ PushPlus 推送结果: 成功
 2. 编辑 pull.yml (在 `.github` 目录下) 文件，将第 5 行内容修改为 `mergeMethod: hardreset`，然后保存提交。
 
 完成后，上游代码更新后 pull 插件会自动发起 PR 更新**覆盖**自己仓库的代码！
+   
 
 当然也可以立即手动触发同步：`https://pull.git.ci/process/${owner}/${repo}`
